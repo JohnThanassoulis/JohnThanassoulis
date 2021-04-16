@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@100&display=swap");
+body {
+  margin: 0;
+  font-family: "Lato",sans-serif;
+  background: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.login-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+}
+
+.login-container .left-login {
+  margin-top: 45px;
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+  border-right: 1px solid black;
+}
+
+.login-container .left-login .circle {
+  margin-left: 35px;
+  height: 200px;
+  border: 4px solid #D6D6D6;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 200px;
+}
+
+.login-container .left-login .circle .person-vector {
+  width: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+
+.login-container .left-login .circle .person-vector img {
+  width: 100px;
+}
+
+.login-container .left-login #google-login {
+  width: 52%;
+  margin-left: 40px;
+  margin-top: 5em;
+  height: 45px;
+  font-size: 15px;
+  background: #FFFFFF;
+  border: 1px solid #0080FF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  font-weight: normal;
+}
+
+.login-container .right-login {
+  -webkit-box-flex: 70%;
+      -ms-flex: 70%;
+          flex: 70%;
+  margin-left: 2rem;
+  padding-left: 2em;
+}
+
+.login-container .right-login #login-subhead {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.login-container .right-login .login-form {
+  margin-top: 4rem;
+  font-style: normal;
+}
+
+.login-container .right-login .login-form input[type=text], .login-container .right-login .login-form select {
+  width: 25%;
+  padding: 15px 25px;
+  margin: 25px 0 25px;
+  display: inline-block;
+  border: 1.5px solid black;
+  border-radius: 2px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.login-container .right-login .login-form #login-form-labels {
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.login-container .right-login .store-password {
+  margin-left: 7px;
+  margin-top: 10px;
+  font-size: 21px;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+.login-container .right-login #login-button {
+  width: 25%;
+  background: #0080FF;
+  border-radius: 5px;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 43px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #FFFBFB;
+}
+
+.login-container .right-login #no-acc {
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.login-container .right-login #new-acc {
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 19px;
+  color: #0080FF;
+}
+
+#register-button {
+  width: 25%;
+  background: #0080FF;
+  border-radius: 5px;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 43px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #FFFBFB;
+}
+
+#already-acc {
+  margin-left: 40px;
+  margin-top: 5em;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+#connect {
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 19px;
+  color: #0080FF;
+}
+/*# sourceMappingURL=login.css.map */

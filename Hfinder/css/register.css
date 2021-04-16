@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@100&display=swap");
+body {
+  margin: 0;
+  font-family: "Lato",sans-serif;
+  background: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.register-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+}
+
+.register-container .left-register {
+  margin-top: 45px;
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+  border-right: 1px solid black;
+}
+
+.register-container .left-register .circle {
+  margin-left: 35px;
+  height: 200px;
+  border: 4px solid #D6D6D6;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 200px;
+}
+
+.register-container .left-register .circle .person-vector {
+  width: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+
+.register-container .left-register .circle .person-vector img {
+  width: 100px;
+}
+
+.register-container .left-register .already-acc {
+  font-weight: lighter;
+  margin-top: 5em;
+  margin-left: 35px;
+  font-size: larger;
+}
+
+.register-container .left-register #connect {
+  margin-left: 15px;
+  color: #0080FF;
+}
+
+.register-container .right-register {
+  -webkit-box-flex: 70%;
+      -ms-flex: 70%;
+          flex: 70%;
+  margin-left: 2rem;
+  padding-left: 2em;
+}
+
+.register-container .right-register h1 {
+  margin-left: 15px;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.register-container .right-register #register-button {
+  margin-top: -8px;
+  height: 50px;
+  background: #0080FF;
+  border-radius: 5px;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 43px;
+  color: #FFFBFB;
+}
+
+.register-container form {
+  font-style: normal;
+  width: 70%;
+  padding: 40px 25px 0 20px;
+  margin: 10px 0 25px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.register-container form input[type=text], .register-container form select {
+  border: 1.5px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+}
+/*# sourceMappingURL=register.css.map */
